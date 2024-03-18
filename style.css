@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  background-color:red;
+  height:60px;
+  align-items:center;
+  justify-content:center;
+  border-radius:20px;
+  font-family:Arial;
+  color:white;
+  font-size:20px;
+}
+nav a{
+  flex:1;
+  text-align: center;
+  text-decoration:none;
+  color: white;
+}
+.head{
+  text-align: center;
+  background-color: red;
+  color: yellow;
+}
+div img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container2{
+  display: flex;
+  background-color:red;
+  text-align: center;
+  font-family:Arial;
+  color:yellow;
+  font-size:20px;
+  justify-content: center;
+}
+footer{
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+body{
+  background-color: rgb(228, 230, 129);
+}
